@@ -104,7 +104,7 @@ The table below shows the paper's reported results for CSI 300 (Table 3, Liu et 
 |Dataset|GPU VRAM|System RAM|Storage|Colab tier|
 |-|-|-|-|-|
 |Proxy tickers (N≈50)|8 GB|16 GB|\~2 GB|Free (T4)|
-|CSI 300 (N=94)|8 GB|16 GB|\~10 GB|Pro (T4)|
+|CSI 300 (N=94)|8 GB|16 GB|\~10 GB|Pro (G4)|
 
 For the A-share dataset, set `rank=128` in `MeanPrecisionFitter` to use a low-rank approximation of the precision matrix and reduce VRAM usage.
 
@@ -123,7 +123,7 @@ For the A-share dataset, set `rank=128` in `MeanPrecisionFitter` to use a low-ra
 |`fig6\_results\_comparison.png`|Sharpe ratio bar chart and return vs volatility scatter|
 |`fig7\_feature\_diagram.png`|All 7 features with formulas and economic meanings|
 
-Edit the `results` list in `fig6\_results\_comparison()` with your actual trained values before including in a paper.
+(Note:still to be incorporated!)
 
 
 
